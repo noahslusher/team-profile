@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.2",
+    "jest": "^27.5.1"
+  },
+  "name": "team-profile",
+  "description": "A team profile generator that generates a dynamic html webpage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahslusher/team-profile.git"
+  },
+  "author": "Noah Slusher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noahslusher/team-profile/issues"
+  },
+  "homepage": "https://github.com/noahslusher/team-profile#readme"
+}
