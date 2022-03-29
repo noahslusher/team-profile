@@ -1,5 +1,13 @@
 const Engineer = require('../lib/Engineer.js')
 
+
+test('creates a new engineer object', () => {
+ const engineer = new Engineer()
+ 
+ expect(typeof engineer).toBe("object")
+ })
+
+
 test('checks for github username', () => {
  const github = "test"
  const engineer = new Engineer("Ben", 1234, "test@test.com", github)
