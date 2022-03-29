@@ -1,8 +1,15 @@
 const fs = require('fs')
 const inquirer = require('inquirer')
+const path = require('path')
 const Manager = require('./lib/Manager.js')
 const Engineer = require('./lib/Engineer.js')
 const Intern = require('./lib/Intern.js')
+
+const OUTPUT_DIR = path.resolve(__dirname, "output") 
+const outputPath = path.join(OUTPUT_DIR, "team.html")
+console.log(outputPath)
+
+const render = require('./dist/htmlRender')
 
 
 const startQuestions = [
@@ -117,7 +124,7 @@ const generateTeam = () => {
                 team.forEach((team) => {
                   console.log(team)
                 })
-                fs.writeFile("team-generator.html", generateHtml(team), (err) => {
+                fs.writeFile(outputPath, render(team), (err) => {
                   if (err) {
                     throw err
                   }
@@ -177,7 +184,7 @@ const teamAddOn = () => {
             team.forEach((team) => {
               console.log(team)
             })
-            fs.writeFile("team-generator.html", generateHtml(team), (err) => {
+            fs.writeFile(outputPath, render(team), (err) => {
               if (err) {
                 throw err
               }
