@@ -35,5 +35,11 @@ I created this application to become more familiar with Jest so that I could lea
   
 ## Questions
   Profile Link: https://github.com/noahslusher
+  
   For any questions or concerns, please contact slushern42@gmail.com with any questions.
+  
+## Walkthrough Video
+  https://vimeo.com/695553027
 
+
+<img width="1105" alt="Screen Shot 2022-04-03 at 9 28 52 PM" src="https://user-images.githubusercontent.com/97577116/161469135-3a5ca6a5-52ad-410d-bfb2-c7f9923d831d.png">
