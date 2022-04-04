@@ -1,6 +1,9 @@
 # Team Profile Generator
   ![License](https://img.shields.io/badge/license-mit-blue.svg)
   
+## Live URL
+https://noahslusher.github.io/team-profile/
+  
 ## Description
 I created this application to become more familiar with Jest so that I could learn Object-Oriented Programming and Test Driven Development. This is a CLI powered by Inquirer that allows you to create a webpage directly from user input to generate a team of employees.
 
